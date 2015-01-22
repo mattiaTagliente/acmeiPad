@@ -1,0 +1,67 @@
+@charset "utf-8"
+html {
+    height: 100%;
+    padding: 0px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+form {
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+    margin: 0px;
+    padding: 0px;
+}
+Ul {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.acmeiPadButton {
+    font-family: monospace;
+    font-weight: bold;
+    background: none repeat scroll 0 0 red;
+    border: medium none;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 6px;
+    padding: 2px;
+}
+.padButton {
+    font-family: monospace;
+    font-weight: bolder;
+    background: none repeat scroll 0 0 red;
+    border: medium none;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 6px;
+    padding: 3px;
+}
+.padName {
+    text-align: center;
+    font-family: monospace;
+    background: none repeat scroll 0 0 red;
+    border: medium none;
+    color: white;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 3px;
+}
+div#iframeDiv {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+div#iframeDiv > iframe {
+    position: fixed;
+    display: block;
+    width: 100%;    
+    height: 100%;
+    border: none;
+    margin-top: 0px;
+}

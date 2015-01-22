@@ -1,0 +1,94 @@
+@charset "utf-8"
+html {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+}
+body {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+div#mainPad0 {
+    width: 100%;  
+    height: 35%;
+}
+.teamIframe {
+    width: 100%;
+    height: 87%;
+    border: none;
+    margin: 0px 0px 0px 0px;
+    margin-top: 0px;
+}
+#tabs {
+    position: relative;
+    
+}
+#padUl {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    border-spacing: 1px 2px;
+}
+#tabs > ul > li{
+    display: table-cell;
+    list-style: none;
+    background: red;
+    border: medium none;
+    color: white;
+    cursor: pointer;
+}
+#tabs > ul > li > a{
+    display: block;
+    text-align: center;
+    font-family: monospace;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 2px 2px;
+}
+#pads {
+    float: center;
+    margin: 0px;
+    padding: 0% 0%;
+    width: 100%;
+    border-spacing: 0px 0px;
+}
+.padName {
+    float: center;
+    width: 100%;
+    text-align: center;
+    font-family: monospace;
+    background: none repeat scroll 0 0 red;
+    border: medium none;
+    color: white;
+    cursor: pointer;
+    margin: 0px 0px 0px 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 1px;
+}
+ul#padsContainer {
+    position: fixed;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;  
+    height: 65%;
+}
+.padsItem {
+    position: fixed;
+    width: 100%;
+    height: 65%;
+}
+.padsIframe {
+    position: fixed;
+    width: 100%;
+    height: 62%;
+    border: none;
+    margin-top: 0px;
+}
